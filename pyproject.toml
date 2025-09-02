@@ -1,0 +1,21 @@
+[project]
+name = "goit-pythonweb-hw-01"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KL-ML",email = "knataly0513@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama (>=0.4.6,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
